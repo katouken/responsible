@@ -64,7 +64,7 @@ main{
 
 @media screen and (max-width:768px) {
 * {
-  margin: 0 25px;/*変更点:0→0 25px;*/
+  margin: 0 15px;/*変更点:0→0 15px;*/
 }
 
 main{
@@ -78,19 +78,31 @@ main{
 }
 
 .step-img1{
- width: 62vw;/*変更点:追加*/
- height: calc(62vw * 100 / 143);/*変更点:150px→calc(62vw * 100 / 143);*/
+  width: 100%;/*変更点:150px→100%;*/
+  margin-left: auto;/*変更点:追加*/
+  margin-right: auto;/*変更点:追加*/
+  padding-top: 70%;/*変更点:追加*/
+  background-repeat: no-repeat;/*変更点:追加*/
+  background-size: 100% auto;/*変更点:cover→ 100% auto;*/
   text-align: center;/*変更点:bottom→center;*/
 }
 .step-img2{
- width: 62vw;/*変更点:150px→62vw;*/
- height: calc(62vw * 100 / 143);/*変更点:150px→calc(62vw * 100 / 143);*/
+  width: 100%;/*変更点:150px→100%;*/
+  margin-left: auto;/*変更点:追加*/
+  margin-right: auto;/*変更点:追加*/
+  padding-top: 70%;/*変更点:追加*/
+  background-repeat: no-repeat;/*変更点:追加*/
+  background-size: 100% auto;/*変更点:cover→ 100% auto;*/
   text-align: center;/*変更点:bottom→center;*/
 }
 
 .step-img3{
- width: 62vw;/*変更点:150px→62vw;*/
- height: calc(62vw * 100 / 143);/*変更点:150px→calc(62vw * 100 / 143);*/
+  width: 100%;/*変更点:150px→100%;*/
+  margin-left: auto;/*変更点:追加*/
+  margin-right: auto;/*変更点:追加*/
+  padding-top: 70%;/*変更点:追加*/
+  background-repeat: no-repeat;/*変更点:追加*/
+  background-size: 100% auto;/*変更点:cover→ 100% auto;*/
   text-align: center;/*変更点:bottom→center;*/
 }
 .title{
